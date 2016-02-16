@@ -1,0 +1,201 @@
+v6.3.5 17-09-2013
+* Navsearch not aligned correctly due to some stray code in css.
+* Fixed a small bug in header.
+
+v6.3.4 14-08-2013
+* text area fields in options pages were adding blank data every time options were updated.
+  Options with blank text makes swift think they are set by the user, so the default action 
+  when the option was not set did not take place. Most affected was the nav search feature.
+  Remove the blank spaces from text areas in swift options, widgets and save.
+
+v6.3.3 19-06-2013
+* Fix navigation bug which creptin in the last version.
+
+v6.3.2 16-06-2013
+* Fix fullwidth footer problem in pages.
+* Fix disable mobile layout option.
+* Better handling of js when mobile layout is disabled.
+* Fix tags option in meta generator.
+
+v6.3.1 03-04-2013
+* Fix blank next post button on the latest single post page.
+* Adjust slider size in old news paper layout.
+* Add margin to images in old news paper layout.
+* Indent all files.
+    
+v6.3.0 16-03-2013
+* Add new responsive navigation menus
+* Add category description to category archives.
+    
+ v6.2.9 08-03-2013
+* Add fix for responsive layout when used with cantered layout. 
+* Add feedback template.
+* Add feedback mosaic template.
+* Add option to set full length posts to zero.
+* Adjust the code for text fields in options pages so that the option below it
+  are not pushed down. Removed <div class="clear"></div>
+* Change data type of sb1_width and content_width to float.
+* Adjust h1,h2,...h6 font size and line heights for vertical rhythm.
+* Add buttons to post navigation.
+
+v6.2.4 30-08-2012
+* Fixed a bug with logo upload.
+
+v6.2.3 30-08-2012
+* Posts number not showing correctly on author template.
+* A small bug with select box.
+* Image button distortion.
+
+v6.2.2 05-08-2012
+* Added opion to change content and sidebar widths.
+* Added sticky sidebars.
+* Changed solid navigation styling.
+* Fixed few glitches with responsive layout in iPad.
+* Form styling inspired for twitter bootstrap. You can disable form styling in your contact form to reduce the page size as swift does the styling for you.
+* Rounded corners were not working few browsers and the latest release of FF, fixed those issues.
+* Changed the table styling, which changes the calendar widget styling.
+* Fixed the ugly code tags in comment form.
+* Changed the slider caption styling.
+* Automatically clears w3tc minify cache on updating options.
+
+v6.2.1 16-06-2012
+* Fixed the problem with about us section going down when used full width magazine layout.
+* Added categiry name in H1 when viewing category and tags template.
+* Made some changes to thumbnails fucntion.
+* Made more strings translatable
+
+v6.2.0 10-06-2012
+* Added color schemes page.
+* Made some changes to options pages.
+* Added disctraction free color options page.
+* After you save the theme options, you wonÕt be taken to the default first tab. You will stay on the tab you were editing.
+* Made some changes to default colors and fonts to improve the look of the theme.
+* Updated many translatable string and made more string translatable based on the suggestion from Alexander Gieg, who is working on Brazilian translation of Swift. Many thanks Alex, you are awesome :)
+* Fixed a bug with the responsive layout. #http://swiftthemes.com/forums/showthread.php?1779-responsive&p=6382&viewfull=1#post6382
+* Changed the top margin of flex slider from 20 to 10px.
+* Fixed a bug with text alignment #http://swiftthemes.com/forums/showthread.php?1789-Border-amp-Alignment&p=6422&viewfull=1#post6422
+* Added rounded corners option for magazine boxes.
+
+v6.1.8 19-05-2012
+* Really fixed a bug with colors whcih I thought I fixed in v6.1.7
+
+
+v6.1.6 17-05-2012
+* Fixed a bug with color options.
+
+v6.1.6 16-05-2012
+* Added slider shortcode
+* Changed the default link color
+* Changed the default navigation to solid.
+* Added option to pick thumbnail sizes.
+* Changed the slider styling
+* Fixed a bug that resest theme option when activating Swift child theme, or activating another version of Swift.
+* Fixed division by zero error when saving options.
+* Added option to enable color options only for a particular elemnt of the page.
+* Fixed a bug with archives http://swiftthemes.com/forums/showthread.php?1757-Clicking-on-a-menu-item-brings-up-a-blank-result-Paid-versions
+
+v6.1.5 10-05-2012
+* theme options were reset when switching theme or activating child theme. Fixed it!
+
+v6.1.4 03-05-2012
+* Added option to customize mobile layout navigation colors.
+* Added a new post listing style, LIST.
+* Added option to pick different post listign style for homepage and archives
+* Fixed a bug in CMS feature.
+* Added archives template
+* Streamlined CSS a little
+
+v6.1.3 14-04-2012
+* Header scripts bug wasn't fixed in v6.1.1, fixed in this version.
+
+v6.1.2 14-04-2012
+* Fixed duplicate content issue.
+
+v6.1.1 14-04-2012
+* Added option to disable ads on individual posts.
+* Brought the CMS features to the posts as well.
+* Fixed the CSS to highlight current page link.
+* Fixed a bug in import/export options.
+* Fixed a problem with header and footer scripts.
+
+v6.1.0 04-04-2012
+This version has lot of changes, I have clubbed the two options arryas into one. So you have to install this plugin 
+and activate it to import options from versions between 6.0.0 to 6.0.9
+http://swiftthemes.com/upgrading-from-swift-v6-0-9-to-v6-1-0/
+
+You should re add your widgets after upgrade
+
+* This version is a true responsive theme. Added option to have separate ads for mobile.
+* Added "Tabs Widget".
+* Added "Smart Text Widget", which automatically disappears when the site is viewed on mobile.
+* Replaced nivo slider with flex slider.
+* Added option to customize slider colors.
+* Icons for RSS links in navigation above logo.
+* Option to disable image, forms  and table styling to use styling included by plugins. (design options -> plugin compatibility )
+* Separated font and color options for navigation above and below logo.
+* Wrapped the logo in <h1> tag for SEO reasons.
+
+
+v6.0.9 10-02-2012
+* Added responsive layout.
+* Added an option to change the "continue reading" text for excerpts.
+* Made some structural changes to sidebar.php.
+* Added the missing home icon in breadcrumbs back.
+* Few changes to how checkboxes and select options are implemented in the backend to comply to WordPress.org standards.
+* Included pot files.
+
+v6.0.8 22-01-2012
+* Added box shadow option for comments, and navigation after post.
+* User friendly error pages.
+* Further enhanced captioned images styling.
+* Changed the shortcodes download icon.
+* Increased the size of comments submit buttons.
+* Some refinments to buttons.
+* Fixed the bug causing flicker in magazine layout.
+* Reduced three http requests by using base64 images for RSS subscribe widget, breadcrumbs icon and comment icon.
+
+v6.0.7 21-01-2012
+* Fixed a bug with magazine layout ( No spacing )
+
+v6.0.6 17-01-2012
+* Added RSS subscribe widget, and more social media options to compliment it.
+* Added new page template
+* Changed the comments icon on blog page, single page and magazine page.
+* Changed the nav search and captioned image styling a little.
+* Few performance tweaks.
+* Updated the help page.
+
+v6.0.5 17-11-2011
+* Fixed above header ad bug.
+* added post colour options.
+* News paper color options.
+* Nav menu arrows bug.
+* List seperator color for sidebar widgets.
+* thumbnail color options for sidebar and footer.
+
+v6.0.4 10-11-2011
+* Fixed the bug with background images and header height (lib/admin/swift-design-options-init.php & create-styles.php)
+
+v6.0.3 04-11-2011
+* Adjusted the line height of titles, so that long titles wont look odd.
+* Fixed the magazine layout on archives page.
+* Improved the Ad between content feature, now it will be added based on the number of pragraphs.
+
+v6.0.2 03-11-2011
+* Removed breadcrumbs from swift, use this instead 
+http://wordpress.org/extend/plugins/wordpress-seo/
+No template editors required, we added support for this plugin in the theme.
+
+* Reduced the font sizes of headings (style.css)
+* Fixed a bug in news paper slider (includes/np-slider.php)
+* Found a bug in the navigation, now the navigation wont require any hacks. All thanks to Alexgieg 
+  http://swiftthemes.com/forums/support-3/small-menu-alignment-issues-1453/
+* Fixed the CMS mode
+	
+v6.0.1 29-10-2011
+* WordPress converts jpeg images to jpg images wile genrating thumbnails, added a check for that ( lib/plugins/dynamic-thumbnails.php )
+* Adjusted the styling of the submit button used in nav search (style.css)
+* Changed the custom fonts implementation for navigation (lib/admin/create-styles.php)
+
+v6.0.0 27-10-2011
+* After 25 rc's, stable release of Swift-v6.0 is here.
